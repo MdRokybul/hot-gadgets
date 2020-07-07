@@ -33,5 +33,16 @@
 }
 .cat-bg{
     box-shadow: 5px 5px 10px lightgray;
-    padding: 50px;
+    
+}
+.img-p{
+    padding: 25px;
+}
+
+.style-div{
+    height: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: orange;
+    margin: auto;
 }
