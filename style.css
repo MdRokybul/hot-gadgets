@@ -1,8 +1,24 @@
 .container{
     margin-bottom: 70px;
 }
+nav{
+    background-color: white;
+}
+
+.carousel-indicators li{
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active{
+    height: 10px;
+    width: 50px;
+    border-radius: 12px;
+    background-color: orange;
+}
 .carousel-bg{
-    background-color: #e295ec;
     border-radius: 10px;
 }
 
@@ -44,5 +60,4 @@
     width: 100px;
     border-radius: 5px;
     background-color: orange;
-    margin: auto;
 }
