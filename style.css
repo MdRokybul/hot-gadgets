@@ -60,4 +60,29 @@ nav{
     width: 100px;
     border-radius: 5px;
     background-color: orange;
+    
+}
+
+.animation-cls{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    animation: mymove 5s ease-in-out infinite alternate;
+}
+
+@keyframes mymove {
+    from{
+        left: 0px;
+        top: 0px;
+    }
+    to{
+        left: 90px;
+        top: 0px;
+    }
+}
+
+.go-to{
+    margin: 30px;
 }
